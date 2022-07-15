@@ -7,10 +7,13 @@ function sumar(a: number, b:number): number {
     return a + b;
 }
 
+//funcion flecha
 const sumarFlecha = (a:number, b:number):number => {
     return a + b;
 }
 
+//primeros los olbigatorios, luego los opcionales y finalmente los que tienen un valor por defecto
+//obligatorios => opcionales => por defecto
 function multiplicar( numero: number, otroNumero?: number, base:number = 2 ): number {
     return numero * base;
 }
